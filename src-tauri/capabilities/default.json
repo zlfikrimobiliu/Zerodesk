@@ -1,0 +1,24 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "enables the default permissions",
+  "windows": [
+    "main",
+    "local-*"
+  ],
+  "permissions": [
+    "core:default",
+    "core:webview:allow-create-webview-window",
+    "core:window:allow-set-focus",
+    "core:window:allow-close",
+    "core:window:allow-unminimize",
+    "core:window:allow-set-title",
+    "allow-open-external",
+    "allow-post-api-json",
+    "allow-local-ipv4",
+    "allow-os-keys",
+    "allow-save-download",
+    "allow-console-update",
+    "allow-local-vnc"
+  ]
+}

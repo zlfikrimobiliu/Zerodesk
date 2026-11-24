@@ -1,0 +1,4 @@
+[[permission]]
+identifier = "allow-post-api-json"
+description = "POST JSON ke API Zerologic (bypass hang WebView)"
+commands.allow = ["post_api_json"]

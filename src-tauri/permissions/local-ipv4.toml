@@ -1,0 +1,4 @@
+[[permission]]
+identifier = "allow-local-ipv4"
+description = "Baca IPv4 lokal console untuk skip LAN beda subnet"
+commands.allow = ["local_ipv4"]

@@ -1,0 +1,4 @@
+[[permission]]
+identifier = "allow-save-download"
+description = "Dialog simpan file agent ke folder yang dipilih superadmin"
+commands.allow = ["save_download"]

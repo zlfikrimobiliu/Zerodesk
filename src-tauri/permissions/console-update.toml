@@ -1,0 +1,4 @@
+[[permission]]
+identifier = "allow-console-update"
+description = "Cek versi ZeroDesk dan unduh installer dari zerologic.lokanesa.com/console"
+commands.allow = ["console_latest", "install_console_update"]

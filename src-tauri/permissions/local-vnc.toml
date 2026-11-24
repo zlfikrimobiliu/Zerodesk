@@ -1,0 +1,4 @@
+[[permission]]
+identifier = "allow-local-vnc"
+description = "Probe LAN dan proxy TightVNC lokal (tidak ke backend publik)"
+commands.allow = ["local_ipv4_list", "local_probe_tcp", "local_vnc_start", "local_vnc_stop", "local_power", "local_arp_mac", "local_wake"]

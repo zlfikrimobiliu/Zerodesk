@@ -1,0 +1,4 @@
+[[permission]]
+identifier = "allow-open-external"
+description = "Buka Google Maps di browser default"
+commands.allow = ["open_external"]

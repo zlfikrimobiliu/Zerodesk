@@ -1,0 +1,4 @@
+[[permission]]
+identifier = "allow-os-keys"
+description = "Tahan tombol Windows lokal selama session remote"
+commands.allow = ["grab_os_keys", "ungrab_os_keys"]
